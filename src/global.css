@@ -1,0 +1,56 @@
+
+.container {
+    @apply mx-auto px-[15px] xl:w-[1170px];
+}
+
+.accent-font {
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.accent-font span {
+    -webkit-text-fill-color: #fff;
+}
+
+.btn {
+    @apply inline-block font-bold rounded-[10px] text-[13px] xl:text-[16px] px-[20px] xl:px-[38px] py-[12.5px] xl:py-[10px] ;
+}
+
+.site-bg-gradient {
+    @apply bg-gradient-to-r from-secondary from-[14%] to-[#681673] to-[82%];
+}
+
+.gradient-bordered-text {
+    -webkit-text-stroke: 2px transparent;
+    -webkit-text-fill-color: #0D0D0D;
+    @apply font-bold leading-none text-[#0d0d0d] text-[48px] inline-block bg-clip-text;
+}
+
+.slide-overlay-left::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background: linear-gradient(to right, #0D0D0D, transparent 50%);
+    z-index: 2;
+}
+
+.slide-overlay-right::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: linear-gradient(to left, #0D0D0D, transparent 50%);
+    z-index: 2;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
