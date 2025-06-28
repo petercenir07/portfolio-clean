@@ -1,4 +1,4 @@
-import aboutProfileImage from '../../assets/images/about-pits.jpg'
+import aboutProfileImage from '../../assets/images/pets-updated.png'
 import ProfileImageAccent from '../profile-image-accent';
 
 export default function AboutSection({ id }) {
