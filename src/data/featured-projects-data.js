@@ -12,7 +12,7 @@ export const featuredProjectsData = [
       id: 1,
       title: 'The Yeager Team',
       imageUrl: projectImg1,
-      technologies: [ 'HTML', 'CSS', 'JS', 'Joomla', 'Bootstrap', 'jQuery' ],
+      technologies: [ 'HTML', 'CSS', 'JS', 'Wordpress', 'Bootstrap', 'jQuery' ],
       description: 'A Real Estate Website that allows you to search your dream property and to know more about the team.',
       demoLink: 'https://www.yeagerteam.com/'
     },
@@ -28,7 +28,7 @@ export const featuredProjectsData = [
       id: 3,
       title: 'AFP Website',
       imageUrl: projectImg3,
-      technologies: [ 'HTML', 'CSS', 'JS', 'ReactJs', 'TMDB Api', 'Fetch API' ],
+      technologies: [ 'HTML', 'CSS', 'JS', 'Joomla', 'Fetch API' ],
       description: 'The official website of the Armed Forces of the Philippines (AFP) provides news, updates, and information about the AFP’s mission, organization, services, and operations in safeguarding national security and supporting peace and development efforts across the country..',
       demoLink: 'https://www.afp.mil.ph/'
     },
